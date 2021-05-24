@@ -14,7 +14,7 @@
                                 <div class="form-group row">
                                     <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
                                     <div class="col-md-6">
-                                        <input  type="text" id="email" class="form-control" data-validation-error-msg-container="#email_error" name="email" value="jes@test.com" required autofocus>
+                                        <input  type="text" id="email" class="form-control" data-validation-error-msg-container="#email_error" name="email"  required autofocus>
                                         <span id="email_error" class="email-error text-danger"></span>
                                     </div>
                                 </div>
@@ -22,7 +22,7 @@
                                 <div class="form-group row">
                                     <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                                     <div class="col-md-6">
-                                        <input type="password" id="password" data-validation-error-msg-container="#pass_error"  class="form-control" value="123456" name="password" required>
+                                        <input type="password" id="password" data-validation-error-msg-container="#pass_error"  class="form-control"  name="password" required>
                                         <span id="pass_error" class="pass-error text-danger"></span>
                                     </div>
                                 </div>
